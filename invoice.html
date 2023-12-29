@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Invoice</title>
+    <link rel="stylesheet" href="style.css" type="text/css" />
+  </head>
+  <body>
+    <div id="invoice-container">
+      <div class="invoice-header">
+        <div id="invoice-details">
+          <p><strong>Invoice</strong></p>
+          <p>Invoice number: 1293103</p>
+          <p>Date of issue: 2023-12-31</p>
+          <p>Date due: 2023-12-31</p>
+        </div>
+
+        <div id="bill-to">
+          <p><strong>Bill To</strong></p>
+          <p>agus@trihanton.com</p>
+        </div>
+
+        <div id="invoice-logo">
+          <img id="invoice-logo" src="langitbiru.png" alt="Langit Biru Logo" />
+        </div>
+      </div>
+
+      <div id="langit-biru-address">
+        <p><strong>Langit Biru</strong></p>
+        <p>Jalan Duren Tiga Selatan no. 7</p>
+        <p>Kalibata, Kec. Pancoran, Kota Jakarta Selatan,</p>
+        <p>Daerah Khusus Ibukota Jakarta 12760, Indonesia</p>
+        <p>support@langitbiru.co</p>
+      </div>
+
+      <br />
+      <div id="payment-details">
+        <p><strong>IDR14,999,000.00</strong></p>
+        <p><strong>Due Januari 02, 2024</strong></p>
+      </div>
+
+      <br />
+      <div>
+        <a href="#">Pay now</a>
+      </div>
+      <br />
+      <div id="item-table">
+        <table>
+          <thead>
+            <tr>
+              <th>Description</th>
+              <th>Qty</th>
+              <th>Unit Price</th>
+              <th>Amount</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Premium Package</td>
+              <td>1</td>
+              <td>IDR14,999,000.00</td>
+              <td>IDR14,999,000.00</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div id="invoice-summary">
+        <table>
+          <tr>
+            <td>Subtotal</td>
+            <td>IDR14,999,000.00</td>
+          </tr>
+          <tr>
+            <td>Tax 11%</td>
+            <td>IDR1,649,890.00</td>
+          </tr>
+          <tr>
+            <td style="border-top: 1px solid #000">Total</td>
+            <td style="border-top: 1px solid #000">IDR16,648,890.00</td>
+          </tr>
+          <tr>
+            <th>Amount Due</th>
+            <th>IDR16,648,890.00</th>
+          </tr>
+        </table>
+      </div>
+
+      <div id="thanks-message">
+        <p>Thanks for your business!</p>
+      </div>
+    </div>
+  </body>
+</html>
